@@ -5,20 +5,20 @@
 class AutoReleaseCli < Formula
   desc "Generate release notes automatically with AI-powered templates"
   homepage "https://autoreleasenote.com"
-  version "1.0.12-test"
+  version "1.0.13-test"
 
   on_macos do
     on_intel do
-      url "https://github.com/papyrus-digital/auto-release-cli-distribution/releases/download/v1.0.12-test/auto-release-cli_1.0.12-test_darwin_amd64.tar.gz"
-      sha256 "474fae3c83a241c026a78c85647b570a1debfba263c9be95a66e548bdd7b0a42"
+      url "https://github.com/papyrus-digital/auto-release-cli-distribution/releases/download/v1.0.13-test/auto-release-cli_1.0.13-test_darwin_amd64.tar.gz"
+      sha256 "f7594cc0f70654b17c95b769067c22bacf7c745d0781b69c395fd4d87946ecea"
 
       def install
         bin.install "releasenote"
       end
     end
     on_arm do
-      url "https://github.com/papyrus-digital/auto-release-cli-distribution/releases/download/v1.0.12-test/auto-release-cli_1.0.12-test_darwin_arm64.tar.gz"
-      sha256 "916cb0078e914a38db974fb8b9eed6e5ac2746cae6b46247eed3355331709b0e"
+      url "https://github.com/papyrus-digital/auto-release-cli-distribution/releases/download/v1.0.13-test/auto-release-cli_1.0.13-test_darwin_arm64.tar.gz"
+      sha256 "74a4ec13d14ef343082bdabfb9df21f776e8b3ac4e4e54499c1b835391e7a18d"
 
       def install
         bin.install "releasenote"
@@ -29,8 +29,8 @@ class AutoReleaseCli < Formula
   on_linux do
     on_intel do
       if Hardware::CPU.is_64_bit?
-        url "https://github.com/papyrus-digital/auto-release-cli-distribution/releases/download/v1.0.12-test/auto-release-cli_1.0.12-test_linux_amd64.tar.gz"
-        sha256 "3e93432f21b92d90fba6d1d8ee6fdb8d92cea060625b5a2833602aebc78c3d2d"
+        url "https://github.com/papyrus-digital/auto-release-cli-distribution/releases/download/v1.0.13-test/auto-release-cli_1.0.13-test_linux_amd64.tar.gz"
+        sha256 "c5bbcf4be971654883d77f29083ea9de5b76087c595e1d0001dc73525fc9cf4e"
 
         def install
           bin.install "releasenote"
@@ -39,8 +39,8 @@ class AutoReleaseCli < Formula
     end
     on_arm do
       if Hardware::CPU.is_64_bit?
-        url "https://github.com/papyrus-digital/auto-release-cli-distribution/releases/download/v1.0.12-test/auto-release-cli_1.0.12-test_linux_arm64.tar.gz"
-        sha256 "ab75d17136bdaf4eca97240e5e213295a6fd5803d0754e442d6f72e55129f373"
+        url "https://github.com/papyrus-digital/auto-release-cli-distribution/releases/download/v1.0.13-test/auto-release-cli_1.0.13-test_linux_arm64.tar.gz"
+        sha256 "8de71003bfda246d1dbaca35d9611cecddbf2511af100b413a657890f9bdccfa"
 
         def install
           bin.install "releasenote"

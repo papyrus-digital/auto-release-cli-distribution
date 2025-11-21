@@ -1,19 +1,19 @@
 {
-    "version": "1.0.20-test",
+    "version": "1.0.21-test",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/papyrus-digital/auto-release-cli-distribution/releases/download/v1.0.20-test/rln_1.0.20-test_windows_amd64.zip",
+            "url": "https://github.com/papyrus-digital/auto-release-cli-distribution/releases/download/v1.0.21-test/rln_1.0.21-test_windows_amd64.zip",
             "bin": [
                 "rln.exe"
             ],
-            "hash": "8e65da4a41ec4c251cb4b4b4412e003f80c8d6e3f4acd4bf6f7a7d28d2b1575f"
+            "hash": "5ad63f1adf373c0adbeed948b44c0ae7ef1c10cb04cf014821c74d4af6ab8e45"
         },
         "arm64": {
-            "url": "https://github.com/papyrus-digital/auto-release-cli-distribution/releases/download/v1.0.20-test/rln_1.0.20-test_windows_arm64.zip",
+            "url": "https://github.com/papyrus-digital/auto-release-cli-distribution/releases/download/v1.0.21-test/rln_1.0.21-test_windows_arm64.zip",
             "bin": [
                 "rln.exe"
             ],
-            "hash": "9243633aed80d24a3654b20238b1909e09f91041d5725d11b35af148f17eea39"
+            "hash": "54a3fa595b18f47ba239566861d4271e8e03e923c936ad56b0c3f0b41cda2fc1"
         }
     },
     "homepage": "https://www.autoreleasenote.com",

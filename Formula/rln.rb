@@ -5,20 +5,20 @@
 class Rln < Formula
   desc "Generate release notes automatically with AI-powered templates"
   homepage "https://www.autoreleasenote.com"
-  version "1.0.20-test"
+  version "1.0.21-test"
 
   on_macos do
     on_intel do
-      url "https://github.com/papyrus-digital/auto-release-cli-distribution/releases/download/v1.0.20-test/rln_1.0.20-test_darwin_amd64.tar.gz"
-      sha256 "90ce52ec5b6fa9acc1b7b5f208f635f2c1a8fa97c0301f5e7b32c4b2f4202719"
+      url "https://github.com/papyrus-digital/auto-release-cli-distribution/releases/download/v1.0.21-test/rln_1.0.21-test_darwin_amd64.tar.gz"
+      sha256 "c0a0eec3bf297c61f0ab414d4af2756f60efe13ce08887826036325146a2b082"
 
       def install
         bin.install "rln"
       end
     end
     on_arm do
-      url "https://github.com/papyrus-digital/auto-release-cli-distribution/releases/download/v1.0.20-test/rln_1.0.20-test_darwin_arm64.tar.gz"
-      sha256 "14cf45cd2089e9b6ad48e91d46a7f51bb28c3d9c48d0dc67fbb5ba553c55d99a"
+      url "https://github.com/papyrus-digital/auto-release-cli-distribution/releases/download/v1.0.21-test/rln_1.0.21-test_darwin_arm64.tar.gz"
+      sha256 "b4dbcc4ca9adccc3014195b1e80167e7c6ba17f58ccb3d0aec9419d559e7d4ab"
 
       def install
         bin.install "rln"
@@ -29,8 +29,8 @@ class Rln < Formula
   on_linux do
     on_intel do
       if Hardware::CPU.is_64_bit?
-        url "https://github.com/papyrus-digital/auto-release-cli-distribution/releases/download/v1.0.20-test/rln_1.0.20-test_linux_amd64.tar.gz"
-        sha256 "1897e293ce46af9f8b60e289cbd97ce34a99a5d1b81bda1aa7cf49524efe5bd4"
+        url "https://github.com/papyrus-digital/auto-release-cli-distribution/releases/download/v1.0.21-test/rln_1.0.21-test_linux_amd64.tar.gz"
+        sha256 "ae6cc2a170868e211868a1ca367eb2dbe6439a86e28157dbded702d37e278489"
 
         def install
           bin.install "rln"
@@ -39,8 +39,8 @@ class Rln < Formula
     end
     on_arm do
       if Hardware::CPU.is_64_bit?
-        url "https://github.com/papyrus-digital/auto-release-cli-distribution/releases/download/v1.0.20-test/rln_1.0.20-test_linux_arm64.tar.gz"
-        sha256 "8790a417db9f36391e7b817181d7c90f2925e50a784e5b9ee0386c7a8f9df2a4"
+        url "https://github.com/papyrus-digital/auto-release-cli-distribution/releases/download/v1.0.21-test/rln_1.0.21-test_linux_arm64.tar.gz"
+        sha256 "d965e312d7848d07ccbae50b9b19e3bbd0f1b9669ad74a233004f956cd0a45ea"
 
         def install
           bin.install "rln"

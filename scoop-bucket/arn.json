@@ -1,0 +1,21 @@
+{
+    "version": "1.0.2",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/papyrus-digital/auto-release-cli-distribution/releases/download/v1.0.2/arn_1.0.2_windows_amd64.zip",
+            "bin": [
+                "arn.exe"
+            ],
+            "hash": "0952eba52f0895d117112ab0f08daf40ea203b45e5cf90cf64f73059d428edce"
+        },
+        "arm64": {
+            "url": "https://github.com/papyrus-digital/auto-release-cli-distribution/releases/download/v1.0.2/arn_1.0.2_windows_arm64.zip",
+            "bin": [
+                "arn.exe"
+            ],
+            "hash": "b37147b75ba61a73597005f9b91f2b9f58ef42cbc422e359b45b63106fe1002b"
+        }
+    },
+    "homepage": "https://www.autoreleasenote.com",
+    "description": "Generate release notes automatically with AI-powered templates"
+}

@@ -1,19 +1,19 @@
 {
-    "version": "1.0.2",
+    "version": "1.0.3",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/papyrus-digital/auto-release-cli-distribution/releases/download/v1.0.2/arn_1.0.2_windows_amd64.zip",
+            "url": "https://github.com/papyrus-digital/auto-release-cli-distribution/releases/download/v1.0.3/arn_1.0.3_windows_amd64.zip",
             "bin": [
                 "arn.exe"
             ],
-            "hash": "0952eba52f0895d117112ab0f08daf40ea203b45e5cf90cf64f73059d428edce"
+            "hash": "84e679e1d0b05b3204f9785e23010eaecdaaa75b6443c03e1ff945c0b371cf03"
         },
         "arm64": {
-            "url": "https://github.com/papyrus-digital/auto-release-cli-distribution/releases/download/v1.0.2/arn_1.0.2_windows_arm64.zip",
+            "url": "https://github.com/papyrus-digital/auto-release-cli-distribution/releases/download/v1.0.3/arn_1.0.3_windows_arm64.zip",
             "bin": [
                 "arn.exe"
             ],
-            "hash": "b37147b75ba61a73597005f9b91f2b9f58ef42cbc422e359b45b63106fe1002b"
+            "hash": "7d0e23bec05f3159ec452560953e6e873dcb7f648554efa6f7606f6b18a62e1f"
         }
     },
     "homepage": "https://www.autoreleasenote.com",

@@ -5,20 +5,20 @@
 class Arn < Formula
   desc "Generate release notes automatically with AI-powered templates"
   homepage "https://www.autoreleasenote.com"
-  version "1.0.4"
+  version "1.0.5"
 
   on_macos do
     on_intel do
-      url "https://github.com/papyrus-digital/auto-release-cli-distribution/releases/download/v1.0.4/arn_1.0.4_darwin_amd64.tar.gz"
-      sha256 "5b29ca4294754cd489f0b50522b97baf03080b3dc3ffca36af07bc4ddaf36eea"
+      url "https://github.com/papyrus-digital/auto-release-cli-distribution/releases/download/v1.0.5/arn_1.0.5_darwin_amd64.tar.gz"
+      sha256 "2f79f2f68fd96d3c553e4f6990c904ae06776c3f5cddafc60acf1fff18fd4c18"
 
       def install
         bin.install "arn"
       end
     end
     on_arm do
-      url "https://github.com/papyrus-digital/auto-release-cli-distribution/releases/download/v1.0.4/arn_1.0.4_darwin_arm64.tar.gz"
-      sha256 "f88a742b8815155b10f2ae4347e2e20fd4b480455d5c95ff8be03a1be702b6de"
+      url "https://github.com/papyrus-digital/auto-release-cli-distribution/releases/download/v1.0.5/arn_1.0.5_darwin_arm64.tar.gz"
+      sha256 "611d7516983458c16b98160039547f9d732502bc98efdf789b3ed3063be4b3c3"
 
       def install
         bin.install "arn"
@@ -29,8 +29,8 @@ class Arn < Formula
   on_linux do
     on_intel do
       if Hardware::CPU.is_64_bit?
-        url "https://github.com/papyrus-digital/auto-release-cli-distribution/releases/download/v1.0.4/arn_1.0.4_linux_amd64.tar.gz"
-        sha256 "7c396bbdb7711e5ed8741511eedcb6b1698bd5552faf7b37227f6f85d8167e95"
+        url "https://github.com/papyrus-digital/auto-release-cli-distribution/releases/download/v1.0.5/arn_1.0.5_linux_amd64.tar.gz"
+        sha256 "a1ea7455b9454e4dd8c6c44260f05ae630c5c588b17999a68b5a1835b8a75646"
 
         def install
           bin.install "arn"
@@ -39,8 +39,8 @@ class Arn < Formula
     end
     on_arm do
       if Hardware::CPU.is_64_bit?
-        url "https://github.com/papyrus-digital/auto-release-cli-distribution/releases/download/v1.0.4/arn_1.0.4_linux_arm64.tar.gz"
-        sha256 "f0fc4efdb84d9eaf8d54a8144fb0d37397c0abd7b2d7a5b2ec129c164865f30f"
+        url "https://github.com/papyrus-digital/auto-release-cli-distribution/releases/download/v1.0.5/arn_1.0.5_linux_arm64.tar.gz"
+        sha256 "a2525ec8c700f177bf244d6daae9faefc9f295a7af6cbf107d3fa479b1843227"
 
         def install
           bin.install "arn"
